@@ -15,6 +15,6 @@ Typing game that measures your typing WPM. Player has to correctly type all of t
 * Webpack to bundle
 
 ## Wireframes
-This app will onsist of a single sreen with game board, game controls and a nav link to my Github and eventually a link to my LinkedIn. 
+This app will onsist of a single sreen with game board, game controls and a nav link to my Github and eventually a link to my LinkedIn. The game controll will allow the player to reset the game as well as see the high score board?
 
 ## Backend
