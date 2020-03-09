@@ -3,7 +3,7 @@
 [Live Version](heroku.com)
 
 ## MVP
-Typing game that measures your typing WPM. The player has to correctly type all of the words on the screen before the time is up. If the player finishes, then he/she proceeds to the next level, where the difficulty of words increases. They're will be 10 levels. Words will continueously spawn (The semantics are a work in progres).
+Typing game that measures your typing WPM. The player has to correctly type all of the words on the screen before the time is up. If the player finishes, then he/she proceeds to the next level, where the difficulty of words increases. There will be 10 levels. Words will continueously spawn (The semantics are a work in progres).
 
 1. Words will spawn until the player loses or the time alotted in the round ends.
 2. There will be 10 levels, increasing in word difficulty.
