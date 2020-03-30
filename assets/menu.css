@@ -1,0 +1,117 @@
+.modal-screen {
+  z-index: 998;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.modal-content {
+  z-index: 999;
+  position: absolute;
+  background: white;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-size: 20px;
+  width: 200px;
+  height: 120px;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+
+#menuIndicator {
+  color: black;
+  display: block;
+  text-align: center;
+  margin: auto;
+	font-size: 16px;
+	z-index: 1000;
+}
+
+#game-canvas {
+  position: relative;
+  height: 400px;
+  margin: auto;
+  width: 800px;
+  box-shadow: 4px 2px 4px rgba(0,0,0,.2);
+}
+
+.modalPanel {
+  position: fixed;
+	/* z-index: 3; */
+ z-index: 998;
+  background: white;
+  width: 300px;
+  border: 3px solid black;
+  height: 300px;
+  top: 140px;
+  left: calc(50% - 170px);
+  padding: 20px;
+	overflow: auto;
+	display: block;
+	border-radius: 50px;
+}
+
+.modalPanel::-webkit-scrollbar {
+  width: 12px;
+  background-color: #f5f5f5;
+}
+
+.modalPanel::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: black;
+}
+
+.modalPanel p:first-of-type {
+  margin-top: 30px;
+}
+
+.modalPanel.winloss p {
+  text-align: center;
+}
+
+.clickable {
+	cursor: pointer;
+}
+
+.modalPanel hr {
+  width: 50%;
+  border-top: 2px solid black;
+  margin-bottom: 30px;
+}
+
+.modalPanel li {
+  cursor: pointer;
+  font-size: 18px;
+}
+
+#menu.left {
+  left: calc(50% - 800px);
+  transition: left 2s;
+}
+
+.modalPanel ul, h2, li {
+  text-align: center;
+  list-style: none;
+  padding: 0px;
+  margin-bottom: 16px;
+}
+
+span.selected {
+  /* text-decoration: underline; */
+  background: black;
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+	border-radius: 3px;
+	display: block;
+}
+
+.hidden {
+	display: none;
+}

@@ -2,19 +2,59 @@
 <html>
 
 <head>
-	<title>Typing Game in React!</title>
+	<title>Typing Game</title>
 	<link rel="stylesheet" href="assets/application.css" type="text/css">
+	<link rel="stylesheet" href="assets/menu.css" type="text/css">
 	<script src="bundle.js"></script>
 </head>
 
-<body>
-	<h1>Typing Game</h1>
-	<p>
-		<!-- Click to explore a tile.<br /> -->
-		<!-- Alt + click to flag a tile. -->
-	</p>
-	<div id="main">
+<body id="main">
+
+	<div class="header">
+		<h1>
+			Typing Game
+			<span id="menuIndicator" class="menu"> Menu </span>
+		</h1>
+		<p>
+			<!-- Header -->
+		</p>
 	</div>
+
+	<!-- <div id="canvasFrame">
+		Main
+
+	</div> -->
+
+	<nav id="menu" class="modalPanel modal-screen">
+		
+		<h2 class="clickable"> GAME OPTIONS </h2>
+		<hr />
+		<ul>
+			<!-- <li class="newGame">New Game</li> -->
+			<li id="gameMode">
+				<span id="arcadeMode" class="selected">Play</span> <br />
+				<!-- <span id="superMario" class="body">Super Mario</span> <br /> -->
+				<!-- <span id="sonsOfAnarchy">Sons of Anarchy</span> -->
+			</li>
+		</ul>
+	</nav>
+
+	<div class="game-canvas">
+		<canvas class="start-screen" id="canvas" height="800" width="800"></canvas>
+		<input id="high-score-form" disabled autofocus maxlength="8" hidden />
+		<input id="typing-form" disabled autofocus autocapitalize="none"></input>
+	</div>
+
+			<ul id="word-list">
+			</ul>
+
+
+
+
+	<div class="footer">
+
+	</div>
+
 </body>
 
 </html>
